@@ -336,8 +336,8 @@ def run():
                         recommended_skills = ['React','Django','Node JS','React JS','php','laravel','Magento','wordpress','Javascript','Angular JS','c#','Flask','SDK']
                         recommended_keywords = st_tags(label='### Recommended skills for you.',
                         text='Recommended skills generated from System',value=recommended_skills,key = '3')
-                        st.markdown('''<h5 style='text-align: left; color: #1ed760;'>Adding this skills to resume will boost🚀 the chances of getting a Job💼</h5>''',unsafe_allow_html=True)
-                        # course recommendation
+                        st.markdown('''<h5 style='text-align: left; color: #1ed760;'>Adding this skills to resume will boost the chances of getting a Job</h5>''',unsafe_allow_html=True)
+                        # course recommendatio
                         rec_course = course_recommender(web_course)
                         break
 
